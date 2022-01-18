@@ -1,12 +1,21 @@
 .use
-  display: flex
-  flex-direction: column
-  align-items: flex-end
-  padding: 104px 0 201px 0
+  background-image: url(../img/yellow1.png)
+  background-repeat: no-repeat
+  background-position: center
+  background-size: auto
+  &__wrapper
+    height: 1124px
+    position: relative
+    display: flex
+    flex-direction: column
+    align-items: flex-end
+    padding: 104px 0 450px 0
   &__title
     width: 698px
     margin: 0 -76px 0 0
   &__rows
+    position: absolute
+    top: 177px
     padding: 59px 0 40px 0
     margin: 0 -76px 0 0
   &__row
@@ -29,12 +38,14 @@
   &__age
     color: $age-row-color
   &__buttons
+    position: absolute
+    top: 624px
     display: flex
     justify-content: space-between
     width: 698px
     margin: 0 -76px 0 0
   &__man-wrapper
     position: absolute
-    left: -172px
-    top: 95px
+    left: -164px
+    top: 98px
     
